@@ -1,0 +1,401 @@
+﻿<script type="text/javascript">
+    var countryStateInfo = {
+        "USA": {
+            "California": {
+                "Los Angeles": ["90001", "90002", "90003", "90004"],
+                "San Diego": ["92093", "92101"]
+            },
+            "Texas": {
+                "Dallas": ["75201", "75202"],
+                "Austin": ["73301", "73344"]
+            }
+        },
+        "India": {
+            "Assam": {
+                "Dispur": ["781005"],
+                "Guwahati": ["781030", "781030"]
+            },
+            "Gujarat": {
+                "Vadodara": ["390011", "390020"],
+                "Surat": ["395006", "395002"]
+            }
+        }
+    }
+
+
+    window.onload = function () {
+
+        //Get html elements
+        var countySel = document.getElementById("countySel");
+        var stateSel = document.getElementById("stateSel");
+        var citySel = document.getElementById("citySel");
+        var zipSel = document.getElementById("zipSel");
+
+        //Load countries
+        for (var country in countryStateInfo) {
+            countySel.options[countySel.options.length] = new Option(country, country);
+        }
+
+        //County Changed
+        countySel.onchange = function () {
+
+            stateSel.length = 1; // remove all options bar first
+            citySel.length = 1; // remove all options bar first
+            zipSel.length = 1; // remove all options bar first
+
+            if (this.selectedIndex < 1)
+                return; // done
+
+            for (var state in countryStateInfo[this.value]) {
+                stateSel.options[stateSel.options.length] = new Option(state, state);
+            }
+        }
+
+        //State Changed
+        stateSel.onchange = function () {
+
+            citySel.length = 1; // remove all options bar first
+            zipSel.length = 1; // remove all options bar first
+
+            if (this.selectedIndex < 1)
+                return; // done
+
+            for (var city in countryStateInfo[countySel.value][this.value]) {
+                citySel.options[citySel.options.length] = new Option(city, city);
+            }
+        }
+
+        //City Changed
+        citySel.onchange = function () {
+            zipSel.length = 1; // remove all options bar first
+
+            if (this.selectedIndex < 1)
+                return; // done
+
+            var zips = countryStateInfo[countySel.value][stateSel.value][this.value];
+            for (var i = 0; i < zips.length; i++) {
+                zipSel.options[zipSel.options.length] = new Option(zips[i], zips[i]);
+            }
+        }
+    }
+
+</script>
+<div id="getloader" style="margin: 0px; padding: 0px; position: fixed; right: 0px; top: 0px; width: 100%; height: 100%;display: none; background-color: rgba(255,255,255,0.5); z-index: 30001;">
+    <p style="position: absolute; color: White; top: 40%; left: 45%;">
+        <img src="~/images/loader.gif" style="width:60% !important;">
+    </p>
+</div>
+
+<div class="nk-content ">
+    <div class="container-fluid">
+        <div class="nk-content-inner">
+            <div class="nk-content-body">
+                <div class="nk-block-head nk-block-head-sm">
+                    <div class="nk-block-between">
+                        <div class="nk-block-head-content">
+                            <h3 class="nk-block-title page-title">Add New Farm</h3>
+                            <div class="nk-block-des text-soft">
+                                <p>Capture New Farm Details.</p>
+                            </div>
+                        </div><!-- .nk-block-head-content -->
+                    </div><!-- .nk-block-between -->
+                </div><!-- .nk-block-head -->
+                <div class="nk-block">
+                    <div class="card card-bordered">
+                        <form class="needs-validation" novalidate>
+                            <div class="card-inner-group">
+                                <div class="card-inner">
+                                    <div class="nk-block-head">
+                                        <div class="nk-block-head-content">
+                                            <h5 class="title nk-block-title">Farm Details</h5>
+                                            <p>Add common infomation like Farm Name, Size etc </p>
+                                        </div>
+                                    </div>
+                                    <div class="nk-block">
+                                        <div class="row gy-4">
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="full-name">Farm Name</label>
+                                                    <div class="form-control-wrap">
+                                                        <input type="text" class="form-control" id="farmname" placeholder="Farm Name" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Farm Number</label>
+                                                    <div class="form-control-wrap">
+                                                        <input type="text" class="form-control" id="farmnumber" placeholder="Farm Number" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-2 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Country</label>
+                                                    <div class="form-control-wrap">
+                                                        <select id="countySel" size="1" class="form-select js-select2" data-placeholder="Select Country" required>
+                                                            <option value="" selected="selected">-- Select Country --</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">State</label>
+                                                    <div class="form-control-wrap">
+                                                        <select id="stateSel" size="1" class="form-select js-select2" data-placeholder="State" required>
+                                                            <option value="" selected="selected">-- Select State--</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">City</label>
+                                                    <div class="form-control-wrap">
+                                                        <select id="citySel" size="1" class="form-select js-select2" data-placeholder="Select City" required>
+                                                            <option value="" selected="selected">-- Select City--</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-xxl-2 col-md-4" style="display: none;">
+                                                <div class="form-group">
+                                                    <label class="form-label">City</label>
+                                                    <div class="form-control-wrap">
+                                                        <select id="zipSel" size="1" class="form-select js-select2" data-placeholder="Select City">
+                                                            <option value="" selected="selected">-- Select Zip--</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="phone-no">Phone Number</label>
+                                                    <div class="form-control-wrap">
+                                                        <input type="number" class="form-control" id="phone-no" placeholder="Phone no" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email">Email</label>
+                                                    <div class="form-control-wrap">
+                                                        <input type="email" class="form-control" id="email" placeholder="Email" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label" for="email">Alternative Phone Number</label>
+                                                    <div class="form-control-wrap">
+                                                        <input type="email" class="form-control" id="number" placeholder="Alternate Phone Number">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Adddress</label>
+                                                    <div class="form-control-wrap">
+                                                        <input type="text" class="form-control" id="address" placeholder="Address" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                        </div>
+                                        <!--row-->
+                                    </div>
+                                </div><!-- .card-inner -->
+                                <div class="card-inner">
+                                    <div class="nk-block-head">
+                                        <div class="nk-block-head-content">
+                                            <h5 class="title nk-block-title">Farm Manager Details</h5>
+                                            <p>Some common information about farm manager. </p>
+                                        </div>
+                                    </div>
+                                    <div class="nk-block">
+                                        <div class="row gy-4">
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">First</label>
+                                                    <input type="text" class="form-control" id="height" placeholder="First Name" required>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Middle Name</label>
+                                                    <input type="text" class="form-control" id="height" placeholder="Middle Name" required>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Last Name</label>
+                                                    <input type="text" class="form-control" id="weight" placeholder="Last Name" required>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Phone Number</label>
+                                                    <input type="text" class="form-control" id="bp" placeholder="Phone Number" required>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Email Address</label>
+                                                    <input type="text" class="form-control" id="pulse" placeholder="Email Address" required>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Alternative Phone Number</label>
+                                                    <input type="text" class="form-control" id="temperature" placeholder="Alternate Phone Number">
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                        </div>
+                                        <!--row-->
+                                    </div>
+                                </div><!-- .card-inner -->
+                                <div class="card-inner">
+                                    <div class="nk-block-head">
+                                        <div class="nk-block-head-content">
+                                            <h5 class="title nk-block-title">Other Details</h5>
+                                            <p>Details information about patient current medical condition. </p>
+                                        </div>
+                                    </div>
+                                    <div class="nk-block">
+                                        <div class="row gy-4">
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Tatoo Prefix</label>
+                                                    <div class="form-control-wrap">
+                                                        <input type="text" class="form-control" id="symptoms" placeholder="Prefix" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Tatoo Length</label>
+                                                    <div class="form-control-wrap">
+                                                        <input type="text" class="form-control" id="symptoms" placeholder="Length" required>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <div class="col-xxl-3 col-md-4">
+                                                <div class="form-group">
+                                                    <label class="form-label">Store</label>
+                                                    <div class="form-control-wrap">
+                                                        <select class="form-select js-select2" data-placeholder="Select Store" required>
+                                                            <option value="">Select</option>
+                                                            <option value="option_select_department">Allergy and immunology</option>
+                                                            <option value="option_select_department">Anesthesiology</option>
+                                                            <option value="option_select_department">Cardiology</option>
+                                                            <option value="option_select_department">Dermatology</option>
+                                                            <option value="option_select_department">Diagnostic radiology</option>
+                                                            <option value="option_select_department">Emergency medicine</option>
+                                                            <option value="option_select_department">Neurology</option>
+                                                            <option value="option_select_department">Obstetrics and gynecology</option>
+                                                            <option value="option_select_department">Ophthalmology</option>
+                                                            <option value="option_select_department">Pathology</option>
+                                                            <option value="option_select_department">Pediatrics</option>
+                                                            <option value="option_select_department">Psychiatry</option>
+                                                            <option value="option_select_department">Surgery</option>
+                                                            <option value="option_select_department">Urology</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                            <!--col-->
+                                            <div class="col-12">
+                                                <div class="form-group">
+                                                    <button type="submit" class="btn btn-primary">Add New Farm</button>
+                                                </div>
+                                            </div>
+                                            <!--col-->
+                                        </div>
+                                        <!--row-->
+                                    </div>
+                                </div><!-- .card-inner -->
+                            </div>
+                        </form>
+                        <script>
+                            // Example starter JavaScript for disabling form submissions if there are invalid fields
+                            (function () {
+                                'use strict';
+                                window.addEventListener('load', function () {
+                                    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                                    var forms = document.getElementsByClassName('needs-validation');
+                                    // Loop over them and prevent submission
+                                    var validation = Array.prototype.filter.call(forms, function (form) {
+                                        form.addEventListener('submit', function (event) {
+                                            if (form.checkValidity() === false) {
+                                                event.preventDefault();
+                                                event.stopPropagation();
+                                                alert("hello");
+                                            }
+                                            if (form.checkValidity() === true) {
+                                                event.preventDefault();
+                                                $(document).ready(function () {
+                                                    $("#getloader").css("display", "inline-block");
+                                                    fdata.append("FarmName", $('#farmname').val());
+                                                    fdata.append("FarmAddress", $('#farmnumber').val());
+                                                    $.ajax({
+                                                        type: "POST",
+                                                        url: "@Url.Content("~")/api/farmmanagement/registerfarm",
+                                                        beforeSend: function (xhr) {
+                                                            xhr.setRequestHeader("XSRF-TOKEN",
+                                                                $('input:hidden[name="__RequestVerificationToken"]').val());
+                                                        },
+                                                        data: fdata,
+                                                        contentType: false,
+                                                        processData: false,
+                                                        success: function (response) {
+                                                            $("#getloader").css("display", "none");
+                                                            if (response == true) {
+                                                                Swal.fire({
+                                                                    type: 'success', customClass: 'swal-wide',
+                                                                    title: 'Saved',
+                                                                    text: 'Record Saved!',
+                                                                    footer: '<p>This Product was Added Successfully</p>'
+                                                                })
+                                                                location.reload();
+                                                            }
+                                                            else {
+                                                                Swal.fire({
+                                                                    type: 'error',
+                                                                    title: 'Failed', customClass: 'swal-wide',
+                                                                    text: 'Record Not Saved!',
+                                                                    footer: '<p>This Product Not Added. Check if all fields exist</p>'
+                                                                })
+                                                                location.reload();
+                                                            }
+                                                        }
+                                                    });
+                                                });
+                                            }
+                                            form.classList.add('was-validated');
+                                        }, false);
+                                    });
+                                }, false);
+                            })();
+                        </script>
+                    </div><!-- .card -->
+                </div><!-- .nk-block -->
+            </div>
+        </div>
+    </div>
+</div>
