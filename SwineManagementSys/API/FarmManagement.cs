@@ -10,7 +10,7 @@ namespace SwineManagementSys.API
     public class FarmManagement : ControllerBase
     {
         // GET: api/<FarmManagement>
-        [HttpGet]
+        [HttpPost]
         public IActionResult RegisterFarm(PmmFarmsMaster farmDetails)
         {
             try { return Ok(); }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\SwineManagementSys.csproj": {}
+    "C:\\Users\\evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\SwineManagementSys.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\SwineManagementSys.csproj": {
+    "C:\\Users\\evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\SwineManagementSys.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\SwineManagementSys.csproj",
+        "projectUniqueName": "C:\\Users\\evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\SwineManagementSys.csproj",
         "projectName": "SwineManagementSys",
-        "projectPath": "C:\\Users\\Evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\SwineManagementSys.csproj",
-        "packagesPath": "C:\\Users\\Evans\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\obj\\",
+        "projectPath": "C:\\Users\\evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\SwineManagementSys.csproj",
+        "packagesPath": "C:\\Users\\evans\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\evans\\source\\repos\\SwineManagementSys\\SwineManagementSys\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Evans\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evans\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -62,7 +62,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[6.0.10, )"
             }
           },
           "imports": [
@@ -84,7 +84,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

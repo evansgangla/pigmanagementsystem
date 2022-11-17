@@ -8,225 +8,253 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SwineManagementSys
 build_property.RootNamespace = SwineManagementSys
-build_property.ProjectDir = C:\Users\Evans\source\repos\SwineManagementSys\SwineManagementSys\
+build_property.ProjectDir = C:\Users\evans\source\repos\SwineManagementSys\SwineManagementSys\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Evans\source\repos\SwineManagementSys\SwineManagementSys
+build_property.MSBuildProjectDirectory = C:\Users\evans\source\repos\SwineManagementSys\SwineManagementSys
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/AccessDenied.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/AccessDenied.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ConfirmEmailChange.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWxDaGFuZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ExternalLogin.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxFeHRlcm5hbExvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Lockout.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Lockout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2Nrb3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Login.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/LoginWith2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGgyZmEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/LoginWithRecoveryCode.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbldpdGhSZWNvdmVyeUNvZGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Logout.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Logout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/ChangePassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcQ2hhbmdlUGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGVsZXRlUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/Disable2fa.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRGlzYWJsZTJmYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/DownloadPersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRG93bmxvYWRQZXJzb25hbERhdGEuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/Email.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/Email.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW1haWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/EnableAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRW5hYmxlQXV0aGVudGljYXRvci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/ExternalLogins.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcRXh0ZXJuYWxMb2dpbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/GenerateRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcR2VuZXJhdGVSZWNvdmVyeUNvZGVzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/ResetAuthenticator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUmVzZXRBdXRoZW50aWNhdG9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/SetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2V0UGFzc3dvcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/ShowRecoveryCodes.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcU2hvd1JlY292ZXJ5Q29kZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/TwoFactorAuthentication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcVHdvRmFjdG9yQXV0aGVudGljYXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1N0YXR1c01lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Register.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/Register.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/RegisterConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3RlckNvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ResendEmailConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNlbmRFbWFpbENvbmZpcm1hdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ResetPassword.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfU3RhdHVzTWVzc2FnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Account/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Error.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/_ViewImports.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Configurations/CullingReasons.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Analytics/Sales.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hbHl0aWNzXFNhbGVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Configurations/CullingReasons.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvbnNcQ3VsbGluZ1JlYXNvbnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Configurations/Users.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Configurations/Users.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlndXJhdGlvbnNcVXNlcnMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/AddFarms.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/AddFarms.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybU1hbmFnZW1lbnRcQWRkRmFybXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/ManageFarms.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/HerdPens.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybU1hbmFnZW1lbnRcSGVyZFBlbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/ManageFarms.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybU1hbmFnZW1lbnRcTWFuYWdlRmFybXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/HerdManager/HerdComposition.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/ManageTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybU1hbmFnZW1lbnRcTWFuYWdlVGFza3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/OverdueTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybU1hbmFnZW1lbnRcT3ZlcmR1ZVRhc2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/PendingTasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybU1hbmFnZW1lbnRcUGVuZGluZ1Rhc2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/Stores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybU1hbmFnZW1lbnRcU3RvcmVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/FarmManagement/TaskLists.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmFybU1hbmFnZW1lbnRcVGFza0xpc3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/HerdManager/HerdComposition.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVyZE1hbmFnZXJcSGVyZENvbXBvc2l0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Home/Index.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Home/Privacy.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/Error.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/_Blank.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/_Blank.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9CbGFuay5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/_ViewImports.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/_ViewStart.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/_Layout.cshtml]
+[C:/Users/evans/source/repos/SwineManagementSys/SwineManagementSys/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-a2tw8luycp

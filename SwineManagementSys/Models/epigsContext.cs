@@ -131,8 +131,6 @@ namespace SwineManagementSys.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.UseCollation("SQL_Latin1_General_CP1_CI_AS");
-
             modelBuilder.Entity<AspNetRole>(entity =>
             {
                 entity.HasIndex(e => e.NormalizedName, "RoleNameIndex")
@@ -3111,15 +3109,13 @@ namespace SwineManagementSys.Models
 
             modelBuilder.Entity<PmmFarmsMaster>(entity =>
             {
-                entity.HasKey(e => e.FarmId)
-                    .HasName("PK_pmm_Farms_Master");
+                entity.HasKey(e => e.UniqueId);
 
                 entity.ToTable("pmm_farms_Master");
 
-                entity.Property(e => e.FarmId)
-                    .HasMaxLength(50)
-                    .IsUnicode(false)
-                    .HasColumnName("Farm_Id");
+                entity.Property(e => e.UniqueId)
+                    .ValueGeneratedNever()
+                    .HasColumnName("UniqueID");
 
                 entity.Property(e => e.CreatedOn)
                     .HasColumnType("datetime")
@@ -3128,109 +3124,80 @@ namespace SwineManagementSys.Models
                 entity.Property(e => e.FarmActive).HasColumnName("Farm_Active");
 
                 entity.Property(e => e.FarmAddress)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Farm_address");
 
                 entity.Property(e => e.FarmContactPerson)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Farm_Contact_person");
 
                 entity.Property(e => e.FarmCountry)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Farm_Country");
 
                 entity.Property(e => e.FarmCounty)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Farm_County");
 
                 entity.Property(e => e.FarmEmail)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Farm_email");
+
+                entity.Property(e => e.FarmId)
+                    .IsUnicode(false)
+                    .HasColumnName("Farm_Id");
 
                 entity.Property(e => e.FarmIndex)
                     .ValueGeneratedOnAdd()
                     .HasColumnName("Farm_index");
 
                 entity.Property(e => e.FarmLocation)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Farm_Location");
 
                 entity.Property(e => e.FarmName)
-                    .HasMaxLength(100)
                     .IsUnicode(false)
                     .HasColumnName("Farm_Name");
 
-                entity.Property(e => e.FarmStore)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.FarmStore).IsUnicode(false);
 
                 entity.Property(e => e.FarmTelephone)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Farm_telephone");
 
                 entity.Property(e => e.FarmTown)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Farm_town");
 
-                entity.Property(e => e.GeoTag)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.GeoTag).IsUnicode(false);
 
                 entity.Property(e => e.MainFarmId)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("Main_FarmID");
 
-                entity.Property(e => e.ManagerAlternateEmail)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.ManagerAlternateEmail).IsUnicode(false);
 
-                entity.Property(e => e.ManagerEmailAddress)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.ManagerEmailAddress).IsUnicode(false);
 
-                entity.Property(e => e.ManagerFirstName)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.ManagerFirstName).IsUnicode(false);
 
-                entity.Property(e => e.ManagerLastName)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.ManagerLastName).IsUnicode(false);
 
-                entity.Property(e => e.ManagerMiddleName)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.ManagerMiddleName).IsUnicode(false);
 
-                entity.Property(e => e.ManagerPhoneNumber)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.ManagerPhoneNumber).IsUnicode(false);
 
-                entity.Property(e => e.Size).HasMaxLength(50);
+                entity.Property(e => e.Size).IsUnicode(false);
 
                 entity.Property(e => e.SvcStatus)
-                    .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("svc_status");
 
-                entity.Property(e => e.TatooLength)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.TatooLength).IsUnicode(false);
 
-                entity.Property(e => e.TatooPrefix)
-                    .HasMaxLength(50)
-                    .IsUnicode(false);
+                entity.Property(e => e.TatooPrefix).IsUnicode(false);
 
-                entity.Property(e => e.UniqueId).HasColumnName("UniqueID");
-
-                entity.Property(e => e.UoM).HasMaxLength(50);
+                entity.Property(e => e.UoM).IsUnicode(false);
             });
 
             modelBuilder.Entity<PmmFeedLog>(entity =>

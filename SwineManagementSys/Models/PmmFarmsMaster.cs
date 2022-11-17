@@ -20,11 +20,11 @@ namespace SwineManagementSys.Models
         public DateTime? CreatedOn { get; set; }
         public bool? FarmActive { get; set; }
         public string? SvcStatus { get; set; }
-        public Guid? UniqueId { get; set; }
+        public Guid UniqueId { get; set; }
         public string? TatooPrefix { get; set; }
         public string? GeoTag { get; set; }
-        public byte[]? Size { get; set; }
-        public byte[]? UoM { get; set; }
+        public string? Size { get; set; }
+        public string? UoM { get; set; }
         public string? ManagerFirstName { get; set; }
         public string? ManagerMiddleName { get; set; }
         public string? ManagerLastName { get; set; }
@@ -33,5 +33,6 @@ namespace SwineManagementSys.Models
         public string? ManagerAlternateEmail { get; set; }
         public string? TatooLength { get; set; }
         public string? FarmStore { get; set; }
+        public string? LinkedAccount { get; set; }
     }
 }

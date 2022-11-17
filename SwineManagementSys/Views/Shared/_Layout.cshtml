@@ -13,22 +13,30 @@
     <title>Pig Management System | Pig Farming Done Right</title>
     <!-- StyleSheets  -->
     <link rel="stylesheet" href="~/assets/css/dashlite.css?ver=3.0.3">
+    <link rel="stylesheet" href="~/assets/css/intlTelInput.css">
     <link id="skin-default" rel="stylesheet" href="~/assets/css/theme.css?ver=3.0.3">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.8/js/intlTelInput-jquery.min.js"></script>
+
     <script src="~/assets/js/countrystatecity.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 </head>
-
+<style type="text/css">
+    .swal-wide {
+        width: 320px !important;
+        font-size: 12px;
+    }
+</style>
 <body class="nk-body ui-rounder npc-default has-sidebar" style="font-family: 'Montserrat' !important;">
     <div class="nk-app-root">
         <div class="nk-sidebar" data-content="sidebarMenu">
             <div class="nk-sidebar-bar">
                 <div class="nk-apps-brand">
-                    <a href="html/index.html" class="logo-link">
+                    <a href="~/" class="logo-link">
                         <img class="logo-light logo-img" src="~/images/logo.png" srcset="~/images/logo-small2x.png 2x" alt="logo">
                         <img class="logo-dark logo-img" src="~/images/logo.png" srcset="~/images/logo-dark-small2x.png 2x" alt="logo-dark">
                     </a>
@@ -145,25 +153,31 @@
                                 </a>
                             </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item">
-                                <a href="html/hospital/appointment.html" class="nk-menu-link">
+                                <a asp-controller="farmmanagement" asp-action="herdpens" class="nk-menu-link">
                                     <span class="nk-menu-icon"><em class="icon ni ni-note-add-fill"></em></span>
                                     <span class="nk-menu-text">Herd Pens</span>
                                 </a>
                             </li><!-- .nk-menu-item -->
+                               <li class="nk-menu-item">
+                                <a asp-controller="farmmanagement" asp-action="stores" class="nk-menu-link">
+                                    <span class="nk-menu-icon"><em class="icon ni ni-note-add-fill"></em></span>
+                                    <span class="nk-menu-text">Stores</span>
+                                </a>
+                            </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item has-sub">
-                                <a href="#" class="nk-menu-link nk-menu-toggle">
+                                <a asp-controller="farmmanagement" asp-action="tasklists" class="nk-menu-link nk-menu-toggle">
                                     <span class="nk-menu-icon"><em class="icon ni ni-users-fill"></em></span>
                                     <span class="nk-menu-text">Farm Task List</span>
                                 </a>
                                 <ul class="nk-menu-sub">
                                     <li class="nk-menu-item">
-                                        <a href="html/hospital/patient-add.html" class="nk-menu-link"><span class="nk-menu-text">Manage Tasks</span></a>
+                                        <a asp-controller="farmmanagement" asp-action="managetasks" class="nk-menu-link"><span class="nk-menu-text">Manage Tasks</span></a>
                                     </li>
                                     <li class="nk-menu-item">
-                                        <a href="html/hospital/patient-list.html" class="nk-menu-link"><span class="nk-menu-text">Pending Tasks</span></a>
+                                        <a asp-controller="farmmanagement" asp-action="pendingtasks" class="nk-menu-link"><span class="nk-menu-text">Pending Tasks</span></a>
                                     </li>
                                     <li class="nk-menu-item">
-                                        <a href="html/hospital/patient-profile.html" class="nk-menu-link"><span class="nk-menu-text">Overdue Tasks</span></a>
+                                        <a asp-controller="farmmanagement" asp-action="overduetasks" class="nk-menu-link"><span class="nk-menu-text">Overdue Tasks</span></a>
                                     </li>
                                 </ul><!-- .nk-menu-sub -->
                             </li><!-- .nk-menu-item -->
@@ -256,7 +270,7 @@
                         <h5 class="title">Dashboards</h5>
                         <ul class="nk-menu">
                             <li class="nk-menu-item">
-                                <a href="html/index.html" class="nk-menu-link">
+                                <a href="~/" class="nk-menu-link">
                                     <span class="nk-menu-icon"><em class="icon ni ni-dashboard-fill"></em></span>
                                     <span class="nk-menu-text">Default Dashboard</span>
                                 </a>
@@ -264,7 +278,7 @@
                             <li class="nk-menu-item">
                                 <a href="html/index-ecommerce.html" class="nk-menu-link">
                                     <span class="nk-menu-icon"><em class="icon ni ni-bag-fill"></em></span>
-                                    <span class="nk-menu-text">Ecommerce Dashboard</span>
+                                    <span class="nk-menu-text">Weather Analytics</span>
                                 </a>
                             </li><!-- .nk-menu-item -->
                             <li class="nk-menu-item">
@@ -276,7 +290,7 @@
                             <li class="nk-menu-item">
                                 <a href="html/index-analytics.html" class="nk-menu-link">
                                     <span class="nk-menu-icon"><em class="icon ni ni-growth-fill"></em></span>
-                                    <span class="nk-menu-text">Analytics Dashboard</span>
+                                    <span class="nk-menu-text">Feeds Dashboard</span>
                                 </a>
                             </li><!-- .nk-menu-item -->
                         </ul><!-- .nk-menu -->
